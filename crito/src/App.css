@@ -497,33 +497,15 @@ html, body {
   text-decoration: none;
   color: #191919;
 }
-.our-services .container .consulting-columns .ba {
+.our-services .container .consulting-columns .servicebox {
   background-color: #FFFFFF;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-top: 90px;
 }
-.our-services .container .consulting-columns .sb {
+.our-services .container .consulting-columns .servicebox:hover {
   background-color: #f9d783;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-top: 90px;
-}
-.our-services .container .consulting-columns .faa {
-  background-color: #FFFFFF;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-top: 90px;
-}
-.our-services .container .consulting-columns .rm {
-  background-color: #FFFFFF;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-top: 90px;
 }
 .our-services .container .consulting-columns a {
   color: #191919;

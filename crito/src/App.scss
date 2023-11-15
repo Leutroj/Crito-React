@@ -566,41 +566,22 @@ h2 {
           color: #191919;
         }
 
-        .ba{
+        .servicebox{
           background-color: #FFFFFF;
           padding-left: 30px;
           padding-right: 30px;
           padding-bottom: 50px;
           padding-top: 90px;
+          
+          
+          &:hover{
+            background-color: #f9d783;
+          }
+
+          
 
         }
-        .sb{
-          background-color: #f9d783;
-          padding-left: 30px;
-          padding-right: 30px;
-          padding-bottom: 50px;
-          padding-top: 90px;
-
-
-        }
-        .faa{
-          background-color: #FFFFFF;
-          padding-left: 30px;
-          padding-right: 30px;
-          padding-bottom: 50px;
-          padding-top: 90px;
-
-
-        }
-        .rm{
-          background-color: #FFFFFF;
-          padding-left: 30px;
-          padding-right: 30px;
-          padding-bottom: 50px;
-          padding-top: 90px;
-
-
-        }
+        
         a{
           color: #191919;
         }
