@@ -1,14 +1,13 @@
 import React from 'react'
 import ServiceBox from '../Generic/ServiceBox'
+import SectionTitles from '../Generic/SectionTitles'
 
 const Services = () => {
   return (
     <section className="our-services">
   <div className="container">
-    <div className="section-title">
-      <p>Our Services</p>
-      <h2>We Provide The Best Service For Consulting</h2>
-    </div>
+
+    <SectionTitles title="Our Services" description="We Provide The Best Consulting Services" />
     <div className="consulting-columns">
      <ServiceBox title="Buisness Advice"  description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="/services/businessadvice" />
      <ServiceBox title="Startup Business"  description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="/services/startupbusiness" />
