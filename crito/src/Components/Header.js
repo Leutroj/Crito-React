@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink, Link } from 'react-router-dom' 
 import Nav from './Nav'
 import Showcase from './Showcase'
 import Brands from './Brands'
