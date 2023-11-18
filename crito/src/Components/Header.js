@@ -12,6 +12,7 @@ import TeamMembers from './TeamMembers'
 import Testamonials from './Testamonials'
 import ArticlesAndNews from './ArticlesAndNews'
 import SignUp from './SignUp'
+import Footer from './Footer'
 
 const Header = () => {
   return (
@@ -28,6 +29,7 @@ const Header = () => {
     <Testamonials />
     <ArticlesAndNews />
     <SignUp />
+    <Footer />
   </header>
   )
 }
