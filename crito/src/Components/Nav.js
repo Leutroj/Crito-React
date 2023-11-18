@@ -1,5 +1,6 @@
 import React from 'react'
 import logoblack from '../Assets/Images/Logo-black.svg'
+import { Link, NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -7,7 +8,7 @@ const Nav = () => {
       <div className="container">
       <button className="btn-menubars"><i className="fa-solid fa-bars-staggered"></i></button>
       <div className="logotype">
-        <a href="index.html"><img src={logoblack} alt="crito logotype" /></a> 
+        <Link to="/"><img src={logoblack} alt="crito logotype" /></Link> 
       </div>
 
       <div className="contactinformation">
@@ -33,10 +34,10 @@ const Nav = () => {
       </div>
       <div className="menu">
         <nav> 
-          <a className="active" href="home.html">Home</a>
-          <a href="service.html">Service</a>
-          <a href="news.html">News</a>
-          <a href="contacts.html">Contact</a>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/service">Service</NavLink>
+          <NavLink to="/news">News</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </nav>
         <div className="login"><a className="btn-theme" href="login.html">Login<i className="fa-regular fa-arrow-up-right"></i></a></div>
       </div>

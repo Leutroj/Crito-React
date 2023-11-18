@@ -777,3 +777,28 @@ html, body {
 .end .container .l-box a :hover {
   opacity: 0.7;
 }
+
+.letsconnect {
+  background-color: #F0EFE9;
+}
+.letsconnect .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.letsconnect .container .korv {
+  padding: 5px;
+  text-decoration: none;
+  color: #191919;
+}
+.letsconnect .container .korv:hover {
+  text-decoration: underline;
+}
+.letsconnect .container h1 {
+  font-family: "DM sans";
+  font-size: 56px;
+  font-weight: 700;
+}
