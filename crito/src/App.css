@@ -817,3 +817,7 @@ html, body {
 .map img {
   width: 100%;
 }
+
+.message-form .container {
+  display: block;
+}
