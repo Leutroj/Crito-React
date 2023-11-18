@@ -946,3 +946,21 @@ h2 {
     }
   }
  }
+
+.info-boxes{
+  .container{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+  }
+}
+.infobox{
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.map{
+  img{
+   width: 100%;
+  }
+}

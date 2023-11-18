@@ -802,3 +802,18 @@ html, body {
   font-size: 56px;
   font-weight: 700;
 }
+
+.info-boxes .container {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.infobox {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.map img {
+  width: 100%;
+}

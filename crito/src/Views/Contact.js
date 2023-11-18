@@ -4,6 +4,7 @@ import Footer from '../Components/Footer'
 import '../App.css'
 import LetsConnect from '../Components/LetsConnect'
 import ContactInformation from '../Components/ContactInformation'
+import Map from '../Components/Map'
 
 const Contact = () => {
   return (
@@ -11,6 +12,8 @@ const Contact = () => {
       <Nav />
       <LetsConnect />
       <ContactInformation />
+      <Map />
+
 
       <Footer />
     </contact>
