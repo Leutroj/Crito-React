@@ -4,7 +4,6 @@ import Footer from '../Components/Footer'
 import '../App.css'
 import LetsConnect from '../Components/LetsConnect'
 import ContactInformation from '../Components/ContactInformation'
-import Map from '../Components/Map'
 import Message from '../Components/Message'
 
 const Contact = () => {
