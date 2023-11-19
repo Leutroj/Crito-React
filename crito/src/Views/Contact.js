@@ -15,8 +15,6 @@ const Contact = () => {
       <ContactInformation />
       <Message />
       <Mapst />
-
-
       <Footer />
     </main>
   )

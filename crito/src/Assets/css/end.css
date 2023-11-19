@@ -1,5 +1,6 @@
 .end {
   background-color: #191919;
+  padding-top: 100px;
 }
 .end .container p {
   color: #8c8c8c;
@@ -21,7 +22,6 @@
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   justify-content: space-between;
   gap: 50px;
-  margin-top: 100px;
 }
 .end .container .links .crito-box {
   display: inherit;
