@@ -5,6 +5,7 @@ import '../App.css'
 import LetsConnect from '../Components/LetsConnect'
 import ContactInformation from '../Components/ContactInformation'
 import Message from '../Components/Message'
+import Mapst from '../Components/Mapst'
 
 const Contact = () => {
   return (
@@ -13,7 +14,7 @@ const Contact = () => {
       <LetsConnect />
       <ContactInformation />
       <Message />
-      <Map />
+      <Mapst />
 
 
       <Footer />

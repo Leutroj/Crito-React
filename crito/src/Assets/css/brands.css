@@ -1,0 +1,23 @@
+.brands .container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
+  grid-template-areas: "paperz dofus martino square gobana";
+  padding: 75px;
+}
+.brands .container .paperz {
+  grid-area: paperz;
+}
+.brands .container .dorfus {
+  grid-area: dofus;
+}
+.brands .container .martino {
+  grid-area: martino;
+}
+.brands .container .square {
+  grid-area: square;
+}
+.brands .container .gobana {
+  grid-area: gobana;
+}

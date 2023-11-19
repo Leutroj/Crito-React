@@ -1,0 +1,114 @@
+.nav {
+  background-color: #f0efe9;
+  padding: 16px;
+}
+.nav .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "logo bars";
+}
+@media (min-width: 992px) {
+  .nav .container {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo cib social" "logo menu menu";
+  }
+}
+.nav .container .btn-menubars {
+  grid-area: bars;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  .nav .container .btn-menubars {
+    display: none;
+  }
+}
+.nav .container .logotype {
+  grid-area: logo;
+  margin-right: 70px;
+}
+.nav .container .contactinformation {
+  grid-area: cib;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .nav .container .contactinformation {
+    display: flex;
+  }
+}
+.nav .container .contactinformation .content-box {
+  padding-right: 30px;
+  margin-right: 30px;
+  border-right: 1px solid #DAD9D3;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.nav .container .contactinformation .content-box i {
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+.nav .container .contactinformation .content-box .last {
+  border: none;
+}
+.nav .container .socialmedia {
+  grid-area: social;
+  display: none;
+  border-top: 1px solid #dad9d3;
+}
+@media (min-width: 992px) {
+  .nav .container .socialmedia {
+    display: block;
+  }
+}
+.nav .container .socialmedia a {
+  color: #191919;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+.nav .container .socialmedia a:hover {
+  color: #979696;
+}
+.nav .container .menu {
+  grid-area: menu;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #DAD9D3;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+@media (min-width: 992px) {
+  .nav .container .menu {
+    display: flex;
+  }
+}
+.nav .container .menu nav a {
+  display: inline-block;
+  color: #191919;
+  text-decoration: none;
+  margin-right: 33px;
+  position: relative;
+}
+.nav .container .menu nav a.active {
+  font-weight: 500;
+}
+.nav .container .menu nav a.active::after, .nav .container .menu nav a:hover::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
+}
+.nav .container .menu .login {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}

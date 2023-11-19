@@ -1,0 +1,19 @@
+.why-choose-us .container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.why-choose-us .container .text-1 {
+  text-align: left;
+}
+.why-choose-us .container .text-1 .icons {
+  float: left;
+  margin-right: 40px;
+  font-size: 2em;
+}
+.why-choose-us .container .text-1 .section-title {
+  width: 400px;
+  height: 350px;
+}

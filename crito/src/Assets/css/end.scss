@@ -1,0 +1,66 @@
+.end{
+  background-color: #191919;
+  .container{
+    p{
+      color: #8c8c8c;
+      padding: 25px;
+    }
+    h3{
+      color: #F0EFE9;
+      margin-bottom: 25px;
+    }
+    a{
+      color: #8c8c8c;
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    .links{
+
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+      justify-content: space-between;
+      gap:50px;
+      margin-top: 100px;
+
+      .crito-box{
+        display: inherit;
+      }
+
+      .company-box{
+        display: inherit;
+
+    }
+    .help-box{
+      display: inherit;
+    }
+
+    .resources-box{
+      display: inherit;
+    }
+
+    .link-box{
+      display: inherit;
+    }
+ }
+ .l-box{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-top: 1px solid #8c8c8c;
+
+  a{
+    color: #F0EFE9;
+    padding: 10px;
+    font-size: 1.3em;
+
+    :hover{
+      opacity: 0.7;
+    }
+  }
+ }
+}
+}

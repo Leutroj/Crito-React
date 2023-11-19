@@ -1,7 +1,7 @@
 import React from 'react'
 import stockholm from '../Assets/Images/Rectangle.png'
 
-const map = () => {
+const mapst = () => {
   return (
     <div className="map">
     <img src={stockholm} />
@@ -9,4 +9,4 @@ const map = () => {
   )
 }
 
-export default map
+export default mapst

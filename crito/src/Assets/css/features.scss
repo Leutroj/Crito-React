@@ -1,0 +1,91 @@
+.features{
+  margin-top: 30px;
+
+  .container{
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-areas: "tc ba sb "    
+                         "tc fa rm";
+    grid-template-columns: 1.5fr  1fr 1fr;
+    grid-template-rows: 200px 200px;  
+     gap: 25px;
+     border: 1px solid #dad9d3;
+     padding: 50px;
+
+     i{
+      font-size: 1.6em;
+      padding-bottom: 30px;
+     }                    
+
+    .text-columns{
+      grid-area: tc;
+      margin-right: 70px;
+      position: relative;
+      bottom: 100px;
+
+        .learn-more{
+          padding-top: 30px;
+          .btn-yellow{
+            background-color: #f9d783;
+            border: 1px solid #f9d783;
+            color: #191919;
+            text-decoration: none;
+            padding: 12px 105px;
+            font-weight: 600;
+            font-size: 16px;
+            border-radius: 25px;
+
+            &:hover{
+              background-color: #191919;
+              color: #F0EFE9;
+            }
+          }
+        }
+      }
+
+    .business-advice{
+      grid-area: ba;
+      width: 70%;
+
+
+      
+      h3{
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      }
+
+    }
+    .startup-business{
+      grid-area: sb;
+      width: 70%;
+      h3{
+        font-weight: 700;
+        font-size: 22px;
+        }
+
+    }
+    .financial-advice{
+      grid-area: fa;
+      width: 70%;
+      
+      h3{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        }
+
+    }
+    .risk-management{
+      grid-area: rm;
+      width: 70%;
+      h3{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        }
+
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.signup {
+  background-color: #F0EFE9;
+}
+.signup .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.signup .container input[type=text] {
+  border-radius: 15px;
+  border: none;
+  padding: 12px 25px;
+  color: #8c8c8c;
+}

@@ -1,0 +1,55 @@
+.end {
+  background-color: #191919;
+}
+.end .container p {
+  color: #8c8c8c;
+  padding: 25px;
+}
+.end .container h3 {
+  color: #F0EFE9;
+  margin-bottom: 25px;
+}
+.end .container a {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+.end .container a:hover {
+  text-decoration: underline;
+}
+.end .container .links {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 100px;
+}
+.end .container .links .crito-box {
+  display: inherit;
+}
+.end .container .links .company-box {
+  display: inherit;
+}
+.end .container .links .help-box {
+  display: inherit;
+}
+.end .container .links .resources-box {
+  display: inherit;
+}
+.end .container .links .link-box {
+  display: inherit;
+}
+.end .container .l-box {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-top: 1px solid #8c8c8c;
+}
+.end .container .l-box a {
+  color: #F0EFE9;
+  padding: 10px;
+  font-size: 1.3em;
+}
+.end .container .l-box a :hover {
+  opacity: 0.7;
+}

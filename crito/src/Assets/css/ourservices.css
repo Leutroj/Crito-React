@@ -1,0 +1,63 @@
+.our-services {
+  background-color: #F0EFE9;
+}
+.our-services .container .selection-title {
+  justify-content: center;
+}
+.our-services .container .consulting-columns {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.our-services .container .consulting-columns h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 35px;
+  padding-bottom: 16px;
+  text-decoration: none;
+}
+.our-services .container .consulting-columns .p {
+  padding: 15px;
+  display: block;
+  text-align: right;
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #191919;
+}
+.our-services .container .consulting-columns .servicebox {
+  background-color: #FFFFFF;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-top: 90px;
+}
+.our-services .container .consulting-columns .servicebox:hover {
+  background-color: #f9d783;
+}
+.our-services .container .consulting-columns a {
+  color: #191919;
+}
+.our-services .container .consulting-columns i {
+  margin-left: 220px;
+  font-size: 4em;
+  padding: 10px;
+}
+.our-services .container .consulting-columns i:hover {
+  opacity: 0.7;
+}
+.our-services .container .os-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.our-services .container .fill {
+  width: auto;
+  height: auto;
+  display: table-cell;
+  color: #F0EFE9;
+}
