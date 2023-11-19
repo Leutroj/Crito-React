@@ -9,12 +9,12 @@
   align-items: center;
   text-align: center;
 }
-.letsconnect .container .korv {
+.letsconnect .container .textlink {
   padding: 5px;
   text-decoration: none;
   color: #191919;
 }
-.letsconnect .container .korv:hover {
+.letsconnect .container .textlink:hover {
   text-decoration: underline;
 }
 .letsconnect .container h1 {
