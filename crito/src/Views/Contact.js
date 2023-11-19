@@ -9,7 +9,7 @@ import Mapst from '../Components/Mapst'
 
 const Contact = () => {
   return (
-    <contact>
+    <main>
       <Nav />
       <LetsConnect />
       <ContactInformation />
@@ -18,7 +18,7 @@ const Contact = () => {
 
 
       <Footer />
-    </contact>
+    </main>
   )
 }
 

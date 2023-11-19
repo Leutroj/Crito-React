@@ -4,3 +4,39 @@
   width: 100%;
   padding: 50px;
 }
+
+.message-form .container h1{
+font-family: DM sans;
+font-size: 45px;
+font-weight: 700;
+
+
+}
+
+.message-form .container input[type=text] {
+  border-radius: 15px;
+  width: 100%;
+  border: none;
+  padding: 12px 25px;
+  color: #8c8c8c;
+}
+
+.message-form .container input[type=email] {
+  border-radius: 15px;
+  width: 100%;
+  border: none;
+  padding: 12px 25px;
+  color: #8c8c8c;
+}
+
+.message-form .container input[type=message] {
+  border-radius: 15px;
+  width: 100%;
+  border: none;
+  padding: 12px 25px;
+  color: #8c8c8c;
+}
+
+.message-form .container button{
+  width: 100%;
+}

@@ -1,6 +1,21 @@
-.message-form .container {
-  text-align: center;
-  background-color: #F0EFE9;
-  width: 100%;
-  padding: 50px;
-}
+@import "./Assets/css/aboutcompany.css";
+@import "./Assets/css/articleAndNews.css";
+@import "./Assets/css/brands.css";
+@import "./Assets/css/btn.css";
+@import "./Assets/css/core.css";
+@import "./Assets/css/end.css";
+@import "./Assets/css/features.css";
+@import "./Assets/css/info-boxes.css";
+@import "./Assets/css/infobox.css";
+@import "./Assets/css/letsconnect.css";
+@import "./Assets/css/map.css";
+@import "./Assets/css/members.css";
+@import "./Assets/css/message-form.css";
+@import "./Assets/css/Nav.css";
+@import "./Assets/css/ourservices.css";
+@import "./Assets/css/projectAndCase.css";
+@import "./Assets/css/SectionTitle.css";
+@import "./Assets/css/ShowCase.css";
+@import "./Assets/css/signup.css";
+@import "./Assets/css/tetstimonial.css";
+@import "./Assets/css/whyChooseUs.css";

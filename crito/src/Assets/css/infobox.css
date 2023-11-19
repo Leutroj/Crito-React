@@ -1,4 +1,33 @@
 .infobox {
-  border: 1px solid black;
-  padding: 15px;
+  border: 1px solid #dad9d3;
+  padding: 20px 60px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "icon h3"
+                      "icon p1"
+                      "icon p2";
+  
+}
+
+.infobox .h3{
+  grid-area: h3;
+  font-family: DM sans;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: end;
+}
+
+.infobox .p{
+  grid-area: p1;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+.infobox img{
+grid-area: icon;
+height: 60px;
+width: 60px;
 }
